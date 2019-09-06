@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "337769461747",
+    "firebase_url": "https://queueku.firebaseio.com",
+    "project_id": "queueku",
+    "storage_bucket": "queueku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337769461747:android:4ee99ef1a07a1fe1",
+        "android_client_info": {
+          "package_name": "edu.bluejack182.queueku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337769461747-9i3jld4b1564uug22ivl6jadg11opigc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.bluejack182.queueku",
+            "certificate_hash": "302c372c1773f1c51f39236ec65796eebf9d53b3"
+          }
+        },
+        {
+          "client_id": "337769461747-94p6kn9s2n1lr9ejeomcmp25lri1rs62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh59m3cycDIUoOX8-80lTZuk1oIuaZxjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337769461747-94p6kn9s2n1lr9ejeomcmp25lri1rs62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
