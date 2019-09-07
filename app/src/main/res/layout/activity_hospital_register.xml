@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Register">
+    tools:context=".HospitalRegister">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="@color/colorPrimaryDark">
+        android:background="@color/colorFacebook">
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -56,17 +56,37 @@
         android:hint="password"
         android:inputType="textPassword"/>
 
+    <EditText
+        android:id="@+id/hospitalCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginHorizontal="@dimen/margin_medium"
+        android:drawableLeft="@drawable/ic_local_hospital_black_24dp"
+        android:drawablePadding="@dimen/margin_medium"
+        android:drawableTint="@color/colorAccent"
+        android:hint="hospital code"
+        android:inputType="textPassword"/>
 
+
+    <Spinner
+        android:id="@+id/roleSpinner"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="@dimen/margin_medium"
+        ></Spinner>
 
     <Button
         android:id="@+id/btnRegis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/colorFacebook"
         android:textColor="@color/colorWhite"
         android:layout_marginTop="@dimen/margin_medium"
         android:text="Register"
         android:layout_marginHorizontal="@dimen/margin_medium"
         />
+
 
 </LinearLayout>

@@ -53,7 +53,7 @@ public class Home extends AppCompatActivity {
 //        myRef.addValueEventListener(vel);
 
         Intent i = getIntent();
-        txtStatus.setText(user.getUid());
+        txtStatus.setText(user.getUid() );
     }
 
     public void signout(View view) {

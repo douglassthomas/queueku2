@@ -170,11 +170,11 @@ public class Login extends AppCompatActivity {
     }
 
     void updateUI(FirebaseUser user){
-        Gson gson = new Gson();
-        String json = gson.toJson(user);
+//        Gson gson = new Gson();
+//        String json = gson.toJson(user);
 
         Intent i = new Intent(getApplicationContext(), Home.class);
-        i.putExtra("user", json);
+//        i.putExtra("user", json);
         startActivity(i);
         finish();
     }

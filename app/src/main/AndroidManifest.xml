@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HospitalLogin"></activity>
+        <activity android:name=".HospitalRegister"></activity>
+        <activity android:name=".HospitalLogin" />
         <activity android:name=".Register" />
         <activity android:name=".Home" />
         <activity android:name=".Login">

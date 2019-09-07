@@ -2,6 +2,7 @@ package edu.bluejack182.queueku;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -15,5 +16,11 @@ public class HospitalLogin extends AppCompatActivity {
 
     public void go_back(View view) {
         finish();
+    }
+
+    public void go_register(View view) {
+        Intent i = new Intent(getApplicationContext(), HospitalRegister.class);
+        startActivity(i);
+
     }
 }
